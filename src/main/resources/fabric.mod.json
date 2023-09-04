@@ -3,18 +3,16 @@
   "id": "back",
   "version": "${version}",
   "name": "back",
-  "description": "",
-  "authors": [],
+  "description": "use /back to go back last waypoint",
+  "authors": ["whiterasbk"],
   "contact": {
     "repo": "https://github.com/whiterasbk/fabric-lttletool-back"
   },
   "license": "GPL-3.0",
   "icon": "assets/back/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "top.whiterasbk.littletool.back.client.BackClient"
-    ],
+    "client": [],
     "main": [
       "top.whiterasbk.littletool.back.Back"
     ]
