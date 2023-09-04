@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "back",
+  "version": "${version}",
+  "name": "back",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/whiterasbk/fabric-lttletool-back"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/back/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "top.whiterasbk.littletool.back.client.BackClient"
+    ],
+    "main": [
+      "top.whiterasbk.littletool.back.Back"
+    ]
+  },
+  "mixins": [
+    "back.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
